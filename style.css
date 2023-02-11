@@ -14,17 +14,9 @@ button {
     color: rgb(236, 113, 134);
 }
 
-#navlist{
-    padding-left: 0%;
-    margin-left: 0%;
-    list-style: none;
-}
-
-#navlist li{
-    padding-left: 100px;
-    background-image: url(img/cupcake.png);
-    background-repeat: no-repeat;
-    background-position: 0.5em;
+ul{
+    list-style-image: url(./img/cupcake.png);
+    list-style-position: inside;
 }
 
 #one {
