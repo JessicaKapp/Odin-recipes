@@ -5,18 +5,27 @@ body {
 div {
     font-weight: bold;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 800;
 }
 
 button {
-    font-size: 25px;
+    font-size: 15px;
     color: rgb(236, 113, 134);
 }
 
-ul{
-    list-style-image: url(./img/cupcake.png);
-    list-style-position: inside;
+li{
+    list-style: none;
+}
+
+li::before{
+    content:'';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-image: url(./img/mochi.png);
+
 }
 
 #one {
